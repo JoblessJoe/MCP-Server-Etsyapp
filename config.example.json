@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "name": "my-project",
+      "path": "/home/YOUR_USER/projects/my-project",
+      "etsy_api_doc": "/home/YOUR_USER/projects/my-project/Other/ETSY_API_DOC.json",
+      "database": {
+        "type": "sqlite",
+        "path": "/home/YOUR_USER/projects/my-project/database.db"
+      },
+      "scan": {
+        "routes": ["routes/**/*.js"],
+        "services": ["services/**/*.js"],
+        "models": ["database/**/*.js"],
+        "views": ["views/**/*.hbs"],
+        "config": ["config/**/*.js"]
+      },
+      "notes_path": "/home/YOUR_USER/projects/my-project/Notes",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "public",
+        "backups",
+        ".claude",
+        "*.log",
+        "*.json",
+        "*.db"
+      ]
+    }
+  ],
+  "server": {
+    "name": "project-context",
+    "version": "1.0.0"
+  }
+}

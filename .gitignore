@@ -1,0 +1,84 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+.pnp
+.pnp.js
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+secrets/
+secret/
+credentials/
+config.json
+
+# ========================
+# API Keys & Config with Secrets
+# ========================
+config.json
+config.local.json
+config.secret.json
+*secret*.json
+*secrets*.json
+*credentials*.json
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids/
+*.pid
+
+# ========================
+# Runtime / OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Build Output
+# ========================
+dist/
+build/
+out/
+
+# ========================
+# Editor & IDE Files
+# ========================
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# Database Files
+# ========================
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+
+# ========================
+# Temporary Files
+# ========================
+tmp/
+temp/
+.tmp/

@@ -1,0 +1,22 @@
+{
+  "name": "mcp-project-context",
+  "version": "1.0.0",
+  "description": "MCP Server für automatische Projekt-Dokumentation - scannt Code-Struktur, API Routes, DB Schema",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["mcp", "documentation", "code-analysis"],
+  "author": "jtebbert",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "better-sqlite3": "^11.0.0",
+    "glob": "^10.3.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
